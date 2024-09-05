@@ -8,6 +8,7 @@ import "https://github.com/OpenZeppelin/openzeppelin-solidity/contracts/math/Saf
 
 /// @title Crowdfunding Contract
 /// @dev Manages individual crowdfunding campaigns
+/// @author Claudia J.H.  
 contract Crowdfunding is EmergencyStop, EternalStorage, ReentrancyGuard {
     using SafeMath for uint256;
 
